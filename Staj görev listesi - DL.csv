@@ -1,0 +1,34 @@
+Görev Adı,Açıklama / Hedef,Seviye,Notlar / Kaynak
+Python Temelleri,"Değişkenler, veri tipleri, fonksiyonlar, döngüler ve liste-sözlük yapıları ile temel Python bilgisi kazanılması.",Başlangıç,
+NumPy & Matplotlib,"Görüntüyü matris gibi temsil etme, piksel işlemleri yapma ve sonuçları grafikle görselleştirme.",Başlangıç,
+OpenCV Giriş,"cv2.imread, cv2.imshow, cv2.resize gibi temel görüntü işleme fonksiyonlarının öğrenilmesi.",Başlangıç,
+OpenCV ile Gaussian Blur,cv2.GaussianBlur() fonksiyonunun nasıl çalıştığının anlaşılması ve çeşitli parametrelerle deneme yapılması.,Başlangıç,
+Gaussian Blur'u Kendin Yaz,Gaussian kernel'ı elle oluşturarak bir görüntü üzerinde filtre uygulama. OpenCV ile hız ve kalite karşılaştırması yapma.,Orta,
+Geleneksel Görüntü İşleme Yöntemleri,"Thresholding, Kenar Bulma (Canny), Morfolojik işlemler (erode, dilate) gibi klasik görüntü işleme yöntemlerini uygulama.",Orta,
+Keypoint ve Özellik Çıkarımı,"SIFT, ORB gibi algoritmalar ile görüntüdeki anlamlı noktaların tespiti, eşleştirme ve uygulamaları.",Orta,
+CNN Nedir?,"Convolution, pooling, activation ve fully connected katmanlarının matematiksel anlatımı ve CNN’in çalışma prensibi.",Orta,
+"Detection, Classification, Segmentation Nedir?",Görüntü işleme görevleri arasındaki farkların açıklanması. Her birinin çıktı türleri ve uygulama senaryoları.,Orta,
+YOLO Teorisi,"YOLO mimarisinin temel yapısı, versiyonlar arası farklar (v3–v8) ve anchor-box, grid mantığıyla nesne tespiti.",Orta,
+YOLO ile İnsan Tespiti,Hazır eğitilmiş YOLO modeli ile video/görüntü üzerinde insan tespiti yapılması.,Orta,
+Kişi Sayma,"Görüntüdeki insan bbox'larını sayarak, kalabalık yoğunluğunu hesaplama. Aynı kişiyi tekrar saymamak için temel izleme mantığı.",Orta,
+Pose Estimation Giriş,"İnsan vücut noktalarının (keypoints) modellenmesi, top-down ve bottom-up yaklaşımların farkı, temel teorik altyapı.",Orta,
+Pose ile Duruş Tespiti,"Oturma, kalkma, yürüme, koşma gibi pozisyonların pose keypoints yardımıyla ayrıştırılması.",İleri,
+Pozisyon Süresi ve Loglama,"Her bir pozda ne kadar kalındığının hesaplanması, kişinin davranış geçmişinin CSV veya JSON olarak loglanması.",İleri,
+Video Üzerine Bilgi Bastırma,"Her kişiye ait pozisyon, süre gibi bilgilerin gerçek zamanlı videoya yazdırılması.",İleri,
+Gerçek Zamanlı Kişi Sayımı + Poz Takibi,Aynı anda hem kişi sayımı hem de davranış analizi yapılması. Çok kişili sahnelerde iş yükü ve performans yönetimi.,İleri,
+Segmentasyon Nedir?,Semantic vs Instance segmentation nedir? Mask çıkışı nedir? Görsel örneklerle farkların anlaşılması.,İleri,
+OpenCLIP Araştırması,Görüntü ve metin arasında benzerlik kuran modelin arka plan teorisi. Uygulamalı örnek yapması beklenmez.,İleri,
+DINOv2 Araştırması,"Self-supervised Vision Transformer yapısı, klasik supervised modellere göre farkları ve kullanım alanları.",İleri,
+Kendi Projeni Öner ve Geliştir,"Kendi seçtiğin bir problemi tanımla, çözüm önerisi geliştir, uygulamanı yap ve dökümante et.",İleri,
+OCR Nedir?,"OCR teknolojisinin ne olduğu, kullanım alanları ve genel çalışma prensibinin öğrenilmesi.",Başlangıç,"Nüfus cüzdanı okuma, fatura tarama örnekleriyle"
+Tesseract OCR Kurulumu ve Kullanımı,pytesseract kütüphanesiyle basit OCR uygulaması yapılması. Görüntüden metin çıkartılması.,Başlangıç,Tesseract GitHub
+OCR Öncesi Görüntü Temizleme,"Eşikleme, grileştirme, gürültü azaltma gibi OCR öncesi iyileştirme tekniklerinin uygulanması.",Orta,"cv2.threshold, Gaussian, erode-dilate"
+OCR ile Belge Okuma Uygulaması,"Kimlik, fatura, fiş gibi bir belge üzerindeki yazıları bölgesel olarak tespit edip metne dökme.",Orta,
+OCR + Bounding Box Görselleştirme,OCR ile tespit edilen metinlerin kutularla işaretlenerek görüntüye bastırılması.,Orta,pytesseract.image_to_data
+OCR ile Türkçe Metin Tanıma,Tesseract’a Türkçe dil dosyası yüklenerek Türkçe karakterlerin doğru okunmasının sağlanması.,Orta,"--psm, lang=‘tur’ kullanımı"
+OCR Sonuçlarını Temizleme,"OCR çıktısındaki hatalı karakterlerin regex veya string işleme ile temizlenmesi, filtrelenmesi.",Orta,
+OCR Post-Processing ve Düzeltme,"Doğru kelime tahmini, karakter düzeltmeleri, metin hizalama gibi iyileştirme işlemleri.",İleri,Levenshtein Distance örneği
+OCR ile Alan Bazlı Veri Çıkarımı,"Belirli alanlardan (örneğin: isim, TC, tarih) verinin otomatik çıkarılması.",İleri,Template matching + OCR
+OCR + NLP ile Anlam Çıkarımı,"OCR çıktısındaki metinden anlamlı bilgi çıkarımı (örneğin adres tespiti, kurum ismi çıkarımı)",İleri,SpaCy veya regex
+OCR ile Form Otomasyonu,OCR ile doldurulmuş bir formun otomatik olarak dijitalleştirilmesi.,İleri,
+OCR + Tablo Tanıma,Görseldeki tablo yapısının algılanması ve hücrelerin ayrı OCR ile okunması.,İleri,camelot-py / tabula / layoutparser
