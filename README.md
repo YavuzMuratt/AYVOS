@@ -20,7 +20,7 @@ Bu repository, bilgisayarlı görü ve derin öğrenme projelerini içermektedir
 ### Ortam Kurulumu
 ```bash
 # Repository'yi klonlayın
-git clone https://github.com/KULLANICI_ADINIZ/REPOSITORY_ADINIZ.git
+git clone https://github.com/YavuzMuratt/AYVOS.git
 cd AYVOS
 
 # Her assignment için ayrı sanal ortam oluşturmanız önerilir
