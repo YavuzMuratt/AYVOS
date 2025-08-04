@@ -81,4 +81,4 @@ Uygulama önce `model/best.pt` dosyasını arar. Eğer bu dosya mevcutsa, kendi 
 8. **Zaman Dilimi**: Bölüm bazlı analiz
 
 ## Sonuçlar
-Bu assignment sonunda YOLOv8 modelini kullanarak insan tespiti yapabilecek, gerçek zamanlı sayım gerçekleştirebilecek ve şık bir arayüz tasarlayabileceksiniz. 
+Bu assignment sonunda YOLOv8 modelini kullanarak insan tespiti yapabilecek, gerçek zamanlı sayım gerçekleştirebilecek bir arayüz tasarlamak hedeflendi. 
