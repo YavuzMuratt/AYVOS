@@ -1,7 +1,7 @@
-# Assignment 5: Kendi Gaussian Blur Implementasyonu
+# Assignment 5: Kendi Gaussian Blur Implementasyonum
 
 ## Görev Açıklaması
-Bu assignment'te Gaussian kernel'ı elle oluşturarak bir görüntü üzerinde filtre uygulama:
+Bu assignment'te Gaussian kernel'ı elle oluşturarak bir görüntü üzerinde filtre uygulamak amaçlandı:
 - Gaussian kernel'ını matematiksel formülle oluşturma
 - OpenCV ile hız ve kalite karşılaştırması yapma
 - Farklı kernel boyutları ve sigma değerleri ile denemeler
@@ -97,4 +97,4 @@ G(x,y) = G(x) * G(y) = (1/(√2πσ)) * e^(-x²/(2σ²)) * (1/(√2πσ)) * e^(-
 - `gaussian_kernels_comparison_2d.jpg` - 2D karşılaştırma
 
 ## Sonuçlar
-Bu assignment sonunda Gaussian Blur'ın nasıl çalıştığını derinlemesine anlayacak, kendi implementasyonunuzu yazabilecek ve Gaussian filtrelerini 3 boyutlu olarak analiz edebileceksiniz. 
+Bu assignment sonunda Gaussian Blur'ın nasıl çalıştığını derinlemesine anlamak hedeflenmiştir.
