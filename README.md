@@ -43,7 +43,7 @@ cd Assignment3
 pip install -r requirements.txt
 ```
 
-### Çalıştırma
+### Örnek Çalıştırma
 ```bash
 python opencv_basics.py
 ```
